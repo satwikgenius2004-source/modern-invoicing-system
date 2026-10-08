@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
+import Navbar from "./assets/components/Navbar";
+import Sidebar from "./assets/components/Sidebar";
 import "./App.css";
 
 const API_URL = "http://localhost:5000/api";
