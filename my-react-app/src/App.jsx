@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import Navbar from "./assets/components/Navbar";
 import Sidebar from "./assets/components/Sidebar";
 import "./App.css";
+const API_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 
-const API_URL = "http://localhost:5000/api";
 
 const getToken = () => {
   return localStorage.getItem("token");
